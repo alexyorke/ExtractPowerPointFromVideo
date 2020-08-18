@@ -11,7 +11,7 @@ Extracts a PowerPoint (or slideshow) from a video. Useful for university lecture
 
 Consider this YouTube video: https://www.youtube.com/watch?v=oRnl-6MBp80. It has a PowerPoint, and those slides are shown on screen at various times in the video. To extract these frames, download the video using youtube-dl `youtube-dl https://www.youtube.com/watch?v=oRnl-6MBp80` then run the script against this downloaded video file.
 
-Using the default settings (95% percentile, 5 fps) I get a collection of images in the `images` folder which are slides from the on-screen PowerPoint. It's not perfect however, and occasionally I get some images of the presenter.
+Using the default settings (95% percentile, 5 fps) I get a collection of images in the `images` folder which are slides from the on-screen PowerPoint. It's not perfect however, and I do get a lot of duplicate PowerPoint images (because the frames have been on-screen for a while.) For some videos, I get some pictures of the lecturer.
 
 
 ## How does it work?
